@@ -3,8 +3,3 @@
 SELECT *
 FROM subscriptions
 LIMIT 100;
---SELECT and GROUP BY the segment column for concrete
---confirmation on all segments
-SELECT segment
-FROM subscriptions
-GROUP BY 1;
